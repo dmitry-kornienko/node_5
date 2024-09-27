@@ -1,6 +1,5 @@
 module.exports = (Sequelize, sequelize) => {
 	return sequelize.define('pizzas', {
-		// TODO: описание полей
 		id: {
 			type: Sequelize.INTEGER,
 			autoIncrement: true,
